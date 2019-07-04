@@ -1,5 +1,5 @@
 from django.urls import path
-from ajaystark import views
+from ajaystark.views import homepage
 urlpatterns = [
-	path('',views.homepage.as_view(),name='home')
+	path('',homepage.as_view(),name='home')
 ]
