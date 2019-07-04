@@ -16,8 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path,include
 from ajaystark import urls
+from share import urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('ajaystark.urls')),
+    path('share/',include('share.urls')),
 ]

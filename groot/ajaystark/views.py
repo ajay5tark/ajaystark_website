@@ -3,6 +3,6 @@ from django.views import generic
 # Create your views here.
 
 class homepage(generic.View):
-	template='/templates/index.html'
+	template='index.html'
 	def get(self,request):
 		return render(request,self.template)
