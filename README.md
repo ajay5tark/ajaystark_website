@@ -1,5 +1,4 @@
 # ajaystark_website
-My personal website
-Made using Django
+Django app template
 
 Develop branch for development, master for production 
